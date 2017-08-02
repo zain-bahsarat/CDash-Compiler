@@ -1,0 +1,26 @@
+#MODE 10
+declaration
+    integer i,j,result
+    character ch
+start
+    output "Enter operand 1"
+    intput i
+    output "Enter operand 2"
+    intput j
+    output "Enter operator (+,-,*,/)"
+    intput ch
+    switch(ch)
+    cases
+    '+';result=i+j break
+    '+';result=i+j break
+    else;output "Wrong Operator" break
+    endcase
+    output "Result is="
+    output result
+    output res
+    a=11
+    a=-12
+    a=$AD
+    a=-$BC
+    v==d
+end
